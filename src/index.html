@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="datto-menu" id="ng-app">
+    <head>
+        <title>Datto Menu</title>
+        <script src="third-party.min.js" type="text/javascript"></script>
+        <script src="internal.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body ng-controller='mainCtrl as main'>
+        <p>{{main.greetings}}</p><br />
+        <menu-component message="main.message"></menu-component>
+    </body>
+</html>
